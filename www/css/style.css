@@ -1,1 +1,14 @@
 /* Empty. Add your own CSS if you like */
+.testrot
+{
+	color:red;
+}
+.item-divider
+{
+	background-color:#00ff00;
+}
+.button-positive
+{
+	background-color:#f2e836 !important;
+	border-color:#5cee20 !important;
+}
