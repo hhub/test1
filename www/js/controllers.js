@@ -1,12 +1,14 @@
 angular.module('starter.controllers', [])
 
+.controller('StartCtrl', function($scope) {
+	$scope.greeting = 'Hola!';
+})
+
 .controller('DashCtrl', function($scope) {
 	$scope.hello="Hello-World";
 })
 
-.controller('StartCtrl', function($scope) {
-	$scope.hello="Hello-World";
-})
+
 
 .controller('ChatsCtrl', function($scope, Chats) {
   $scope.chats = Chats.all();
