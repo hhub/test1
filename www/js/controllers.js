@@ -4,6 +4,10 @@ angular.module('starter.controllers', [])
 	$scope.hello="Hello-World";
 })
 
+.controller('StartCtrl', function($scope) {
+	$scope.hello="Hello-World";
+})
+
 .controller('ChatsCtrl', function($scope, Chats) {
   $scope.chats = Chats.all();
   $scope.remove = function(chat) {
