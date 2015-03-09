@@ -3,12 +3,26 @@
 {
 	color:red;
 }
-.item-divider
+/*.item-divider
 {
 	background-color:#00ff00;
-}
+}*/
 .button-positive
 {
 	background-color:#f2e836 !important;
 	border-color:#5cee20 !important;
+}
+
+.row
+{
+	background-color:#387ef5 !important;
+}
+
+.item
+{
+	background-color:#11c1f3 !important;
+}
+.button-bar
+{
+	background-color:#387ef5 !important;
 }
