@@ -4,6 +4,10 @@ angular.module('starter.controllers', [])
 	$scope.greeting = 'Hola!';
 })
 
+.controller('NewsCtrl', function($scope) {
+	$scope.greeting = 'Hi!';
+})
+
 .controller('DashCtrl', function($scope) {
 	$scope.hello="Hello-World";
 })
